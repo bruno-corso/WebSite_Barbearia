@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato Barbearia Bruno</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="logo.png" alt="logo da barbearia"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nome-sobrenome">Nome Completo</label>
+                <input type="text" id="nome-sobrenome" class="input-padrao" required placeholder="Digite seu nome...">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="alura@alura.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(DD) XXXXX-XXXX">
+
+                <label for="mensagem">Escreva sua mensagem</label>
+                <textarea id="mensagem" cols="30" rows="10" class="input-padrao" required placeholder="Escreva sua mensagem..."></textarea>
+
+                <fieldset>
+                    <legend>Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" id="radio-email">Email</label>
+                    <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+                    <label for="radio-wpp"><input type="radio" name="contato" id="radio-wpp" checked>WhatsApp</label>                   
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser contatado?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar Contato" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8 ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8 ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8 ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </main>
+
+        <footer>
+            <img src="logo-branco.png" alt="logo branco" alt="logo da barbearia">
+            <p class="copyright">&#169; Copyright Barbearia Bruno - 2022</p>
+        </footer>
+    </body>
+</html>
