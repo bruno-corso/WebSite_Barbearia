@@ -98,9 +98,10 @@ footer {
     margin-top: 20px;
 }
 
-/* main{
-    
-} */
+.main-contato{
+    width: 940px;
+    margin: 0 auto;
+}
 
 form {
     margin: 40px 0;
@@ -257,7 +258,7 @@ thead{
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-benef, .mapa-conteudo, .video, .lista-benef, .imagembeneficios, .produtos{
+    .caixa, .principal, .conteudo-benef, .mapa-conteudo, .video, .lista-benef, .imagembeneficios, .produtos, form{
         width: 90%;
         margin: 5% auto;
         padding: 0;
@@ -265,6 +266,9 @@ thead{
     .produtos li{
         width: 100%;
         margin: 2.5% auto;
+    }
+    .input-padrao{
+        width: 80%;
     }
     h2{
         font-size: 1.25em;
