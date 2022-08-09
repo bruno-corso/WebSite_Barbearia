@@ -166,6 +166,7 @@ thead{
 
 .banner{
     width: 100%;
+    opacity: 75%;
 }
 
 .principal{
@@ -203,7 +204,7 @@ thead{
 
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE , orange);
+    background: linear-gradient(#FEFEFE , grey);
 }
 
 .mapa-conteudo{
@@ -218,7 +219,7 @@ thead{
 
 .beneficios{
     padding: 3em 0; 
-    background: orange;
+    background: grey;
 }
 
 .conteudo-benef{
@@ -247,9 +248,36 @@ thead{
 
 .imagembeneficios{
     width: 60%;
+    box-shadow: 5px 5px 10px #000000;
 }
 
 .video{
     margin: 2em auto;
     width: 600px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-benef, .mapa-conteudo, .video, .lista-benef, .imagembeneficios, .produtos{
+        width: 90%;
+        margin: 5% auto;
+        padding: 0;
+    }
+    .produtos li{
+        width: 100%;
+        margin: 2.5% auto;
+    }
+    h2{
+        font-size: 1.25em;
+    }
+    header nav{
+        position: static;
+    }
+
+    h1{
+        text-align: center;
+    }   
+    
+    #footer-img{
+        width: 20%;
+    }
 }
