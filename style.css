@@ -258,7 +258,7 @@ thead{
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-benef, .mapa-conteudo, .video, .lista-benef, .imagembeneficios, .produtos, form{
+    .caixa, .principal, .conteudo-benef, .mapa-conteudo, .video, .lista-benef, .imagembeneficios, .produtos, .main-contato{
         width: 90%;
         margin: 5% auto;
         padding: 0;
